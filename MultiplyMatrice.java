@@ -5,17 +5,17 @@ class MultiplyingMatrice{
         int [][] matrice2 = new int [3][3];
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("Enter the values of the 1st matrice:");
         for(int i=0; i<3; i++){
             for(int j=0; j<3; j++){
-                System.out.println("Enter the values of the 1st matrice:");
-                System.out.print("Enter the value in the position "+ i + j);
+                System.out.print("Enter the value in the position "+ i + j + ":");
                 matrice1[i][j] = sc.nextInt();
             }
         }
+        System.out.println("Enter the values of the 2st matrice:");
         for(int i=0; i<3; i++){
             for(int j=0; j<3; j++){
-                System.out.println("Enter the values of the 2st matrice:");
-                System.out.print("Enter the value in the position "+ i + j);
+                System.out.print("Enter the value in the position "+ i + j + ":");
                 matrice2[i][j] = sc.nextInt();
             }
         }
