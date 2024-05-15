@@ -9,7 +9,6 @@ class Calculating{
             }
         }
     }
-
     double checkingArmstrong(int value){
         int num = value;
         int count = 0;
@@ -26,9 +25,7 @@ class Calculating{
         }
         return rev;
     }
-    
 }
-
 public class ArmstrongNumBetween {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
@@ -39,7 +36,7 @@ public class ArmstrongNumBetween {
         int end = sc.nextInt();
 
         Calculating obj = new Calculating();
-        obj.gettingArmstrong(start, end);;
+        obj.gettingArmstrong(start, end);
 
         sc.close();
     }
